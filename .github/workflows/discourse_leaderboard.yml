@@ -3,11 +3,11 @@ run-name: ${{ github.actor }} is testing out GitHub Actions 🚀
 on: 
   workflow_dispatch:
     inputs:
-      from_date: ''
+      from_date:
         description: 'Start date from which to quary topics (e.g 2023-01-01)'
         required: true
         default: ''
-      to_date: ''
+      to_date:
         description: 'End date untill which to quart topics (e.g 2023-04-01)'
         required: true
         default: ''
